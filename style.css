@@ -78,7 +78,7 @@ transition: .5s;
 }
 .navigation .btnLogin-popup:hover{
     background-color: #fff;
-color: #2C4019;
+color: #0D0D0D;
 }
 
 .wrapper{
@@ -93,6 +93,7 @@ color: #2C4019;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .wrapper .form-box {
@@ -100,9 +101,26 @@ color: #2C4019;
     padding: 40px;
 }
 
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #0D0D0D;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
 .form-box h2{
     font-size: 2rem;
-    color: #2C4019;
+    color: #0D0D0D;
     text-align: center;
 }
 
@@ -111,7 +129,7 @@ color: #2C4019;
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #2C4019;
+    border-bottom: 2px solid #0D0D0D;
     margin: 30px 0;
 }
 .input-box label{
@@ -120,7 +138,7 @@ color: #2C4019;
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
-color: #2C4019;
+color: #0D0D0D;
 font-weight: 500;
 pointer-events: none;
 transition: .5s;
@@ -132,7 +150,10 @@ transition: .5s;
     background-color: transparent;
     border: none;
     outline: none;
-   
+    font-size: 1em;
+    color: #0D0D0D;
+    font-weight:600 ;
+   padding: 0 35px 0 5px;
 }
 
 .input-box input:focus~label,
@@ -143,7 +164,57 @@ transition: .5s;
 .input-box .icon{
     position: absolute;
  font-size: 1.2em;
- color: #2C4019;
+ color: #0D0D0D;
     right: 8px;
     line-height: 57px;
 }
+
+.remember-forgot{
+    font-size: .9em;
+    color: #0D0D0D;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display:flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    accent-color: #0D0D0D;
+margin-right: 3px;
+}
+.remember-forgot a{
+    color: #0D0D0D;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: #0D0D0D;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.login-register{
+    font-size: .9em;
+    color: #0D0D0D;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+color: #0D0D0D;
+text-decoration: none;
+font-weight: 600;
+}
+
+.login-register p a:hover{
+text-decoration: underline;
+}
+
