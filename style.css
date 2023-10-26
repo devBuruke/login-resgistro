@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 82vh;
-    background-image: url(imagens/view-retro-computer-technology.jpg);
+    background-image: url(imagens/view-retro-computer-technology.jpg) ;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
