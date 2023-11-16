@@ -13,7 +13,7 @@
 
   }
 
-  interface ClienteDAOInterface {
+  interface BancoInterface {
 
 
     public function Const_cliente($cliente);
