@@ -1,12 +1,12 @@
 <?php
 
-require_once("models/ClienteModel.php");
-require_once("models/Message.php");
-require_once("globals.php");
+require_once("php/BancoModel.php");
+require_once("php/Message.php");
+require_once("php/globals.php");
 
 
 
-class ClienteDao implements ClienteDAOInterface
+class BancoDao implements BancoDAOInterface
 {
 
   private $conn;
@@ -23,7 +23,7 @@ class ClienteDao implements ClienteDAOInterface
   public function Const_cliente($cliente)
   {
 
-    $usuario = new Cliente();
+    $usuario = new Banco();
 
     $usuario->id = $cliente["codclie"];
     $usuario->nome = $cliente["nome"];

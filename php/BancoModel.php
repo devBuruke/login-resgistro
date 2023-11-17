@@ -17,9 +17,9 @@
 
 
     public function Const_cliente($cliente);
-    public function criar_clie(Cliente $cliente);
-    public function deletar_clie(Cliente $id);
-    public function editar_cliente(Cliente $cliente);
+    public function criar_clie(Banco $cliente);
+    public function deletar_clie(Banco $id);
+    public function editar_cliente(Banco $cliente);
     public function findByEmail($email);
 
   }
